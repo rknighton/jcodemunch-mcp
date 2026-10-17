@@ -1,0 +1,701 @@
+{
+  "format": "project-recovery-parts-v1",
+  "sourcePlan": {
+    "slug": "jcodemunch-old-test-workspaces",
+    "repo": "rknighton/jcodemunch-mcp",
+    "allowCreate": false,
+    "sources": [
+      {
+        "root": "C:\\Users\\Admin\\Documents\\GIT\\Temp\\jcm-perf-pass2"
+      },
+      {
+        "root": "C:\\Users\\Admin\\Documents\\GIT\\Temp\\jcm-perf-corpus"
+      },
+      {
+        "root": "C:\\Users\\Admin\\Documents\\GIT\\jcodemunch-efficiency-campaign-runtime-20260826",
+        "retain": [
+          "codex-bench-home"
+        ]
+      },
+      {
+        "root": "C:\\Users\\Admin\\Documents\\GIT\\jcodemunch-perf-pass2-archive"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "name": "recovery.tar.gz.part0001",
+      "bytes": 94371840,
+      "sha256": "22da0471b9dc60f5e4307de6cb22fb64001ea887577b44d23c474d44573208a7"
+    },
+    {
+      "name": "recovery.tar.gz.part0002",
+      "bytes": 94371840,
+      "sha256": "b5fd3d4d634361e2fab23eb19545c4d2b7b9ff139c7c223b64ae5888a6991cef"
+    },
+    {
+      "name": "recovery.tar.gz.part0003",
+      "bytes": 94371840,
+      "sha256": "3930ada70b74d4f6fc74eea3beee8a843f8ffc75810132bcd9e0402ca1d294c7"
+    },
+    {
+      "name": "recovery.tar.gz.part0004",
+      "bytes": 70396464,
+      "sha256": "ee7879df21dcbe5f7a4bfdd3349f442067652a7bf8a5db725be2c1369b5f2946"
+    }
+  ],
+  "archiveSha256": "709e4ced1fa0ceaf9f6dfd05345d855b3b0c57900437583f03fb120123d6e471",
+  "archiveBytes": 353511984,
+  "selectedFiles": 44698,
+  "selectedLogicalBytes": 1215514795,
+  "gitRepositories": 14,
+  "excluded": [
+    {
+      "source": 0,
+      "path": "__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/tests/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/tests/encoding/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/runtime/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/parser/context/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/org/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/groq/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/evidence/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/enrichment/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/encoding/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/encoding/schemas/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/embeddings/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/src/jcodemunch_mcp/cli/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/benchmarks/replay/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/benchmarks/harness/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/benchmarks/goldset/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/benchmarks/anchor/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/.ruff_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/.pytest_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/.github/actions/health-radar/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-semantic-certified-hybrid/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/runtime/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/parser/context/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/encoding/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/src/jcodemunch_mcp/encoding/schemas/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-main/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/tests/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/runtime/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/parser/context/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/enrichment/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/encoding/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/src/jcodemunch_mcp/encoding/schemas/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/.ruff_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/.pytest_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-lazy-prototype/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/tests/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/tests/encoding/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/runtime/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/parser/context/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/org/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/groq/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/evidence/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/enrichment/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/encoding/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/encoding/schemas/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/embeddings/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/src/jcodemunch_mcp/cli/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/benchmarks/replay/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/benchmarks/harness/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/benchmarks/goldset/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/benchmarks/anchor/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/.ruff_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/.pytest_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/.github/actions/health-radar/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-generation-safe-hybrid/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/runtime/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/parser/context/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/encoding/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/encoding/schemas/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/src/jcodemunch_mcp/embeddings/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "wt-1.108.207/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "call-hierarchy-evidence-v3/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/tests/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/tests/encoding/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/runtime/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/parser/context/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/org/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/investigator/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/groq/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/evidence/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/enrichment/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/encoding/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/encoding/schemas/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/embeddings/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/src/jcodemunch_mcp/cli/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/benchmarks/replay/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/benchmarks/harness/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/benchmarks/goldset/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/benchmarks/deadcode_eval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/benchmarks/anchor/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/.pytest_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/.github/actions/health-radar/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "arc4-research-v1-upstream/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "gin/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "fastapi/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "express/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "django/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 2,
+      "path": "official-token-corpus/gin/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 2,
+      "path": "official-token-corpus/fastapi-codex/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 2,
+      "path": "official-token-corpus/fastapi/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 2,
+      "path": "official-token-corpus/express/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 2,
+      "path": "codex-minimal-host-prefetch-home/plugins/cache/openai-curated-remote/openai-templates/0.1.1/tests/__pycache__",
+      "reason": "rebuildable/test-generated"
+    }
+  ],
+  "retained": [
+    {
+      "source": 2,
+      "path": "codex-bench-home",
+      "reason": "owner-protected local-only material"
+    }
+  ]
+}
