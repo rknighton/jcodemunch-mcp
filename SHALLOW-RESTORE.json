@@ -1,0 +1,60 @@
+{
+  "reason": "Original dependency checkout was shallow. Preserve its recorded shallow boundaries when restoring the bundled objects. This was tested in a fresh bare repository and a second normal Git clone.",
+  "restoreSteps": [
+    "git init --bare RESTORED.git",
+    "Write each listed shallow boundary, one per line, to RESTORED.git/shallow",
+    "git -C RESTORED.git bundle unbundle history-N.bundle",
+    "Restore the references printed by unbundle with git update-ref; set HEAD to the recorded commit; preserve every recorded repository HEAD under refs/heads/recovery/repository-ID",
+    "git -C RESTORED.git fsck --full; clone RESTORED.git, then apply archived overlays and deletions"
+  ],
+  "repositories": [
+    {
+      "repository": 6,
+      "root": "C:\\Users\\Admin\\Documents\\GIT\\Temp\\jcm-perf-corpus\\gin",
+      "head": "34dac209ffb6ef85cc78c5d217bbb7ad001d68fd",
+      "originalBundle": "history-2.bundle",
+      "shallowBoundaries": [
+        "34dac209ffb6ef85cc78c5d217bbb7ad001d68fd"
+      ],
+      "restoredDirectory": "shallow-recovery-2.git",
+      "fullObjectCheck": true,
+      "bundleSha256": "5ee0b6098562bd164b0fae3aad4224d6f3cfe4bd14e1719863210790e295bae6"
+    },
+    {
+      "repository": 7,
+      "root": "C:\\Users\\Admin\\Documents\\GIT\\Temp\\jcm-perf-corpus\\fastapi",
+      "head": "95f8322ee1dcda7ceace7b1c4f6c9915b36d748f",
+      "originalBundle": "history-3.bundle",
+      "shallowBoundaries": [
+        "95f8322ee1dcda7ceace7b1c4f6c9915b36d748f"
+      ],
+      "restoredDirectory": "shallow-recovery-3.git",
+      "fullObjectCheck": true,
+      "bundleSha256": "f763e5fb0859946d668f74def782c7ae66fbf2aee35b36f623269bf6ed09b02e"
+    },
+    {
+      "repository": 8,
+      "root": "C:\\Users\\Admin\\Documents\\GIT\\Temp\\jcm-perf-corpus\\express",
+      "head": "a3714473feb3d2908add734d340e7755fd85e0a3",
+      "originalBundle": "history-4.bundle",
+      "shallowBoundaries": [
+        "a3714473feb3d2908add734d340e7755fd85e0a3"
+      ],
+      "restoredDirectory": "shallow-recovery-4.git",
+      "fullObjectCheck": true,
+      "bundleSha256": "590ac2a39bc4a03492d5a7eb7ce25b99288560b21936dd146479893d78dbc1f3"
+    },
+    {
+      "repository": 9,
+      "root": "C:\\Users\\Admin\\Documents\\GIT\\Temp\\jcm-perf-corpus\\django",
+      "head": "274a1d494d11d87a1b767340d1f398f197810f93",
+      "originalBundle": "history-5.bundle",
+      "shallowBoundaries": [
+        "274a1d494d11d87a1b767340d1f398f197810f93"
+      ],
+      "restoredDirectory": "shallow-recovery-5.git",
+      "fullObjectCheck": true,
+      "bundleSha256": "2892643b8b60a1b9076901c2035f58ae2d93a3f506fcf3ff410e1e8616676c94"
+    }
+  ]
+}
